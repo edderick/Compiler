@@ -1,0 +1,32 @@
+/*
+ * 1 \n 2 \n 3 \n 4 \n 5 \n 6
+ */
+
+MODULE Test;
+VAR a : COUNT;
+PROCEDURE p1 (a: COUNT) :=
+BEGIN
+OUTPUT a
+END;
+PROCEDURE p2 () :=
+VAR a : COUNT;
+VAR p1 : COUNT
+BEGIN
+a:= 3;
+p1:= 4;
+OUTPUT a;
+OUTPUT p1
+END;
+FUNCTION f(a:COUNT) : COUNT:=
+BEGIN
+OUTPUT a;
+f:= 6
+END
+BEGIN
+a := 1;
+OUTPUT a;
+p1(2);
+p2();
+a:= f(5);
+OUTPUT a
+END;

@@ -1,0 +1,10 @@
+MODULE Test;
+VAR a : COUNT;
+CONST b : COUNT := 10;
+FUNCTION f () : COUNT := BEGIN 
+OUTPUT b
+END
+BEGIN
+a:= 5;
+a:= f()
+END;

@@ -1,0 +1,6 @@
+MODULE Test;
+VAR a : COUNT;
+PROCEDURE p () := BEGIN p := 0 END
+BEGIN
+p()
+END;

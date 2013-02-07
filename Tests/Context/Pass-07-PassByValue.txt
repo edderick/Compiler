@@ -1,0 +1,12 @@
+MODULE Test;
+VAR a : COUNT;
+PROCEDURE p (b : COUNT) := 
+BEGIN 
+b:= 5;
+OUTPUT b
+END
+BEGIN
+a := 1;
+p(a);
+OUTPUT a
+END;

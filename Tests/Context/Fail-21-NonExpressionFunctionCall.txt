@@ -1,0 +1,7 @@
+MODULE Test;
+FUNCTION f(a:COUNT) : COUNT:=
+BEGIN
+END
+BEGIN
+f(5)
+END;

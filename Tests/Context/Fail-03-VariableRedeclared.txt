@@ -1,0 +1,6 @@
+MODULE Test;
+VAR a : COUNT;
+VAR a : COUNT
+BEGIN
+a := 1
+END;

@@ -1,0 +1,4 @@
+MODULE Test;
+CONST c : COUNT := 1 == 1
+BEGIN
+END;

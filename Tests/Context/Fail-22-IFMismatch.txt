@@ -1,0 +1,5 @@
+MODULE Test;
+FUNCTION f () : COUNT := BEGIN END
+BEGIN
+IF f() THEN OUTPUT "fail"
+END;

@@ -1,0 +1,11 @@
+MODULE Test;
+VAR i : COUNT;
+FUNCTION f (i:COUNT) : COUNT := 
+BEGIN 
+IF i == 0 THEN f := 1
+ELSE f := f(i - 1) * i
+END
+BEGIN
+i := f(3);
+OUTPUT i
+END;

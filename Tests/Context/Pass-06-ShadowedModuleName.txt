@@ -1,0 +1,13 @@
+MODULE Test;
+VAR a : COUNT;
+PROCEDURE p () := 
+VAR Test: TRUTH
+BEGIN END;
+FUNCTION f () : COUNT := 
+VAR Text: COUNT
+BEGIN 
+END
+BEGIN
+p();
+a := f()
+END;

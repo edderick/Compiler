@@ -1,0 +1,7 @@
+MODULE Test;
+VAR a : COUNT;
+FUNCTION p () : COUNT := BEGIN OUTPUT a END
+BEGIN
+a:= 5;
+a:= f()
+END;

@@ -1,0 +1,6 @@
+MODULE Test;
+VAR a : COUNT;
+PROCEDURE p (a: COUNT, b: COUNT) := BEGIN END
+BEGIN
+p(1,2,3,4)
+END;

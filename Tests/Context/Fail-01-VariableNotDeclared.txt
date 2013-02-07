@@ -1,0 +1,4 @@
+MODULE Test;
+BEGIN
+a := 1
+END;

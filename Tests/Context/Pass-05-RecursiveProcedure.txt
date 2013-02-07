@@ -1,0 +1,10 @@
+MODULE Test;
+PROCEDURE p (i:COUNT) := 
+BEGIN 
+IF i > 0 THEN p( i - 1 );
+OUTPUT "Hello"
+END
+BEGIN
+p(4);
+OUTPUT "How Low?"
+END;

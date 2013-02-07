@@ -1,0 +1,7 @@
+MODULE Test;
+CONST c : COUNT:= 0; 
+CONST f : FLOAT:= .;
+CONST t : TRUTH := 1 == 1
+BEGIN
+
+END;

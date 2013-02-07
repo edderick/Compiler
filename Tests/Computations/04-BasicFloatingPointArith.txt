@@ -1,0 +1,16 @@
+/*
+ * 1.0E-9
+ */
+
+MODULE Test;
+VAR a,b,c,d : FLOAT
+BEGIN
+a := .E-10;
+b := .1e10;
+c := 1.;
+d := 3.40282346638528865e+39;
+
+a := a * c + b * c - (-b * -c) + (c / b);
+
+OUTPUT a
+END;

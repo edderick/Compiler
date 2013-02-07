@@ -1,0 +1,15 @@
+/*
+ * 5
+ */
+
+MODULE Test;
+VAR a,b,c : COUNT;
+BEGIN
+a := 1;
+b := 2;
+c := 3;
+
+a := -a + b * c;
+
+OUTPUT a
+END;

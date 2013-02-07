@@ -1,0 +1,24 @@
+/**
+ * -2 2
+ */
+MODULE Test;
+
+VAR i, j, k: COUNT;
+FUNCTION f (i,j,k: COUNT) : COUNT :=
+BEGIN
+	k := i - j - k;
+	f := i / k
+END
+
+BEGIN
+k := 5;
+j := 6;
+i := 1;
+
+i := f(k,j,i);
+OUTPUT i;
+
+i:= f(k,j,i + 10 / -10);
+OUTPUT i
+
+END;

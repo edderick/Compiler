@@ -1,0 +1,8 @@
+MODULE Test;
+VAR a : COUNT;
+PROCEDURE p () := 
+CONST Test: TRUTH := 1 == 1
+BEGIN END
+BEGIN
+p()
+END;

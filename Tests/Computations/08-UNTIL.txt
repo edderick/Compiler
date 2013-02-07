@@ -1,0 +1,25 @@
+/*
+ * 0 0 0 0 0 0 1 2 3 4 0 2 4 6 8 0 3 6 9 12 0 4 8 12 16
+ */
+
+MODULE Test;
+VAR i,j,k : COUNT
+BEGIN
+
+i := 0;
+
+REPEAT  
+BEGIN
+j:= 0;
+	REPEAT 
+	BEGIN
+		k := i * j;
+		OUTPUT k;
+		j := j + 1
+	END
+	UNTIL j < 5;
+i:= i + 1
+END
+UNTIL i < 5
+
+END;

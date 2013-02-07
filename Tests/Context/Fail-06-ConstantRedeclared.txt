@@ -1,0 +1,6 @@
+MODULE Test;
+CONST f : COUNT := 5;
+CONST f : COUNT := 5
+BEGIN
+
+END;

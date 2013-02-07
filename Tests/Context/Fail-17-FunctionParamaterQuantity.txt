@@ -1,0 +1,6 @@
+MODULE Test;
+VAR a : COUNT;
+FUNCTION f (a: COUNT) : COUNT:= BEGIN END
+BEGIN
+a:= f()
+END;

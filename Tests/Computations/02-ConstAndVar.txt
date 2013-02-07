@@ -1,0 +1,11 @@
+/*
+ * 10
+ */
+
+MODULE Test;
+VAR a : COUNT;
+CONST b : COUNT := 10
+BEGIN
+a := b;
+OUTPUT a
+END;
